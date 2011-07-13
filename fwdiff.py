@@ -85,10 +85,10 @@ class FWBase(object):
         
     def __cmp__(self, other):
         """compare two rules, but ignore differences where only the number has changed"""
-        for f in self.fields:
+        for f in self.fields:  
             if getattr(self, f) != getattr(other, f):
                 return cmp(getattr(self, f), getattr(other, f))
-            return 0        
+        return 0        
 
 class AccessRule(FWBase):
     """AccessRule"""
