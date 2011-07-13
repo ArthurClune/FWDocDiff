@@ -1,0 +1,11 @@
+
+A simple tool to diff the output from FWDoc.
+
+You can use it as a svn diff-cmd or as a simple diff tool e.g.
+
+$ fwdiff.py ruleset1.json ruleset2.json
+
+To convert rules from Astaro or FW1, use the appropiate tool from 
+
+http://www.wyae.de/software/fwdoc/
+
